@@ -590,6 +590,176 @@
 
     <hr>
 
+<!-- ROLLOVERS / TARJETAS CON IMAGEN -->
+<style>
+
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tarjetas IA</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rollover-IA {
+  position: relative;
+  width: 250px;
+}
+
+.rollover-IA img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.rollover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  opacity: 0;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.rollover-IA:hover .rollover-overlay {
+  opacity: 1;
+}
+
+.rollover-titulo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rollover-label {
+  margin-top: 5px;
+  font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>5 cosas hechas por la IA</h2>
+
+<div class="contenedor">
+
+<!-- TARJETA 1 -->
+<div class="rollover-IA">
+  <img 
+    src="https://www.beedigital.es/wp-content/uploads/2025/04/shutterstock_2284898109.jpg"
+    onmouseover="this.src='https://via.placeholder.com/250x150/0000FF/FFFFFF?text=IA+Texto';"
+    onmouseout="this.src='https://www.beedigital.es/wp-content/uploads/2025/04/shutterstock_2284898109.jpg';"
+    alt="Generar texto">
+  
+  <div class="rollover-overlay">
+    <div class="rollover-titulo">Generar texto</div>
+    <div class="rollover-texto">
+      ChatGPT puede escribir ensayos, historias y ayudarte con tareas.
+    </div>
+  </div>
+  <div class="rollover-label">Generar texto</div>
+</div>
+
+<!-- TARJETA 2 -->
+<div class="rollover-IA">
+  <img 
+    src="https://cdn.prod.website-files.com/657b24018d72422f5109a72e/66e01136a9708740ce6bbaeb_66912e7b0c00ad5a328e4914_ia-arte.webp"
+    onmouseover="this.src='https://via.placeholder.com/250x150/FF0000/FFFFFF?text=IA+Arte';"
+    onmouseout="this.src='https://cdn.prod.website-files.com/657b24018d72422f5109a72e/66e01136a9708740ce6bbaeb_66912e7b0c00ad5a328e4914_ia-arte.webp';"
+    alt="Crear arte">
+  
+  <div class="rollover-overlay">
+    <div class="rollover-titulo">Crear imágenes</div>
+    <div class="rollover-texto">
+      IA como DALL·E crea imágenes a partir de texto.
+    </div>
+  </div>
+  <div class="rollover-label">Crear imágenes</div>
+</div>
+
+<!-- TARJETA 3 -->
+<div class="rollover-IA">
+  <img 
+    src="https://comunicagenia.com/wp-content/uploads/2024/11/pareidolia-ia-reconocer-rostros-objetos-1080x675.jpeg"
+    onmouseover="this.src='https://via.placeholder.com/250x150/00FF00/000000?text=Reconocimiento';"
+    onmouseout="this.src='https://comunicagenia.com/wp-content/uploads/2024/11/pareidolia-ia-reconocer-rostros-objetos-1080x675.jpeg';"
+    alt="Reconocer">
+  
+  <div class="rollover-overlay">
+    <div class="rollover-titulo">Reconocer objetos</div>
+    <div class="rollover-texto">
+      La IA identifica personas y objetos en imágenes.
+    </div>
+  </div>
+  <div class="rollover-label">Reconocimiento</div>
+</div>
+
+<!-- TARJETA 4 -->
+<div class="rollover-IA">
+  <img 
+    src="https://aipz.mx/wp-content/uploads/2025/05/20250529opi01.jpg"
+    onmouseover="this.src='https://via.placeholder.com/250x150/FFFF00/000000?text=Autos+IA';"
+    onmouseout="this.src='https://aipz.mx/wp-content/uploads/2025/05/20250529opi01.jpg';"
+    alt="Autos">
+  
+  <div class="rollover-overlay">
+    <div class="rollover-titulo">Autos autónomos</div>
+    <div class="rollover-texto">
+      Tesla desarrolla vehículos que se conducen solos.
+    </div>
+  </div>
+  <div class="rollover-label">Autos IA</div>
+</div>
+
+<!-- TARJETA 5 -->
+<div class="rollover-IA">
+  <img 
+    src="https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/07/18/62d5870682d29.jpeg"
+    onmouseover="this.src='https://via.placeholder.com/250x150/FF00FF/FFFFFF?text=Traduccion';"
+    onmouseout="this.src='https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/07/18/62d5870682d29.jpeg';"
+    alt="Traducir">
+  
+  <div class="rollover-overlay">
+    <div class="rollover-titulo">Traducir idiomas</div>
+    <div class="rollover-texto">
+      Google Translate traduce en tiempo real.
+    </div>
+  </div>
+  <div class="rollover-label">Traducción</div>
+</div>
+
+</div>
+
+
+</style>
+
+
+
+</div>
+<br><br><hr><br>
+
+
+
+
+
+
     <h2 id="quees">¿Qué es la inteligencia artificial?</h2>
 
     <p>
